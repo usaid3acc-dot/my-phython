@@ -1,0 +1,12 @@
+nums = [5, 3, 8, 3]
+nums.append(1)# add 1 in last making it[5, 3, 8, 3,1]
+print (nums)
+nums.remove(3)# remove 3 from list which is in first giving [5,8,3,1]
+print (nums)
+last = nums.pop()# removes 1 from nums and give to last ,giving last value of[1]
+print (nums)
+print (last)
+nums.sort()# sort the nums making it,3,5,8]
+print (nums)
+result = nums.sort()#it makes result nones
+print (result)
